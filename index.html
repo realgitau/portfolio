@@ -28,7 +28,6 @@
                     <h3 class="nav__name">Antony</h3>
                     
                     <ul class="nav__list">
-                    
                         <li class="nav__list">
                             <a href="#home" class="nav__link">Home</a>
                         </li>
@@ -42,7 +41,7 @@
                         </li>
                     
                         <li class="nav__list">
-                            <a href="#contact" class="nav__link">Contact Me</a>
+                            <a href="#contact" class="nav__link-button">Contact Me</a>
                         </li>
                     </ul>
                     
@@ -69,11 +68,9 @@
 
                 <div class="home__profile">
                     <div class="home__image">
-                        <img src="/assets/img/georgia-de-lotz-rncny1536Xs-unsplash.jpg" alt="image" class="home__img">
+                        <img src="/assets/img/georgia-de-lotz-rncny1536Xs-unsplash.jpg" alt="image" class="home__img" >
 
                         <div class="home__shadow"></div>
-
-                        <!-- <img src="/assets/img/arrow-narrow-left-svgrepo-com.svg" alt="" class="home__arrow" > -->
 
                         <div class="geometric-box"></div>
                     </div>
@@ -108,7 +105,7 @@
         </section>
         <!-- about -->
         <section class="about" id="about">
-            <div class="about__container container-grid">
+            <div class="about__container container grid">
                 <h2 class="section__title-1">
                     <span>About Me.</span>
                 </h2>
@@ -154,7 +151,7 @@
                 <span>Services.</span>
             </h2>
 
-            <div class="services__container container-grid">
+            <div class="services__container container grid">
                 <article class="services__card">
                     <div class="services__border"></div>
 
@@ -216,7 +213,7 @@
                 <span>Projects.</span>
             </h2>
 
-            <div class="projects__container container-grid">
+            <div class="projects__container container grid">
                 <article class="projects__card">
                     <div class="projects__image">
                         <img src="/assets/img/georgia-de-lotz-rncny1536Xs-unsplash.jpg" alt="image" class="projects__img">
@@ -375,7 +372,7 @@
         </section>
         <!-- contact -->
         <section class="contact section" id="contact">
-            <div class="contact__container container-grid">
+            <div class="contact__container container grid">
                 <div class="contact__data">
                     <h2 class="section__title-2">
                         <span>Contact Me.</span>
@@ -410,7 +407,7 @@
                             </div>
 
                             <div class="contact__box contact__area">
-                                <textarea name="" id="message" class="contact__input" placeholder="Message Here"
+                                <textarea name="" id="message" class="contact__input" placeholder="Message Here" name="message"
                                 required></textarea>
                                 <label for="message" class="contact__label">Message</label>
                             </div>
@@ -425,10 +422,31 @@
     </main>
     <!-- footer -->
     <footer class="footer">
+        <div class="footer__container container grid">
+            <ul class="footer__links">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
 
+                <li>
+                    <a href="#about" class="footer__link">About Me</a>
+                </li>
+
+                <li>
+                    <a href="#Projects" class="footer__link">Projects</a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; All Rights Reserved By
+                <a href="" style="color:white"> Antony </a>
+            </span>
+        </div>
     </footer>
     <!-- scroll top -->
-
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-line scrollup__icon"></i>
+    </a>
     <!-- ScrollReveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Email JS -->
